@@ -1,6 +1,5 @@
 .App {
   text-align: left;
-  background-color: black;
   height: 100%;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
@@ -41,7 +40,8 @@
   }
 }
 .green-font {
-  color: #026421; /* This is a darker shade of green */
+  color: green; /* This is a darker shade of green */
   font-size: x-large;
-  font-family: monospace;
+  font: 1.3rem Inconsolata, monospace;
+  
 }

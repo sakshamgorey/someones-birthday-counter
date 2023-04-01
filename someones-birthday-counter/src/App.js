@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./App.css";
 import Typist from 'react-typist';
 
@@ -59,21 +59,24 @@ function App(props) {
         <span className="green-font">0</span>
         <Typist.Backspace count={1} delay={300} />
         <span className="green-font">INITIATING GETTING SHREESH BITCHES PROTOCOL</span>
-        <div className="green-font">LOADING:|*************************************************|</div>
-        <div className="green-font">>SYSTEM BREAKDOWN</div>
+        <div className="green-font">LOADING:████████████████████</div>
+        <div className="green-font">>SYSTEM FAILURE</div>
         <div className="green-font">ERROR-CODE:051</div>
-        <div className="green-font">ERROR-LOG:SKILL ISSUE</div>
-        <Typist.Backspace count={155} delay={600} />
+        <div className="green-font">ERROR-LOG:IMPOSSIBLE</div>
+        <div className="green-font"> (╮°-°)╮┳━━┳ ( ╯°□°)╯┻━━┻ </div>
+        <Typist.Backspace count={147} delay={600} />
         <span className="green-font">>INITIATING SHREESH BIRTHDAY PROTOCOL</span>
-        <Typist.Delay ms={100} />
-        <div className="green-font">>[PROTOCOL CREATED SO HIS FRIEND DOESNT FORGET HIS BIRTHDAY]</div>
-        <div className="green-font">>THERE ARE <b>{diffInMonthsString}</b> MONTHS REMIANING FOR SHREESH'S BIRTHDAY</div>
-        <div className="green-font">>THERE ARE <b>{diffInWeeksString}</b> WEEKS REMIANING FOR SHREESH'S BIRTHDAY</div>
-        <div className="green-font">>THERE ARE <b>{diffInDaysString}</b> DAYS REMIANING FOR SHREESH'S BIRTHDAY</div>
-        <div className="green-font">>THERE ARE <b>{diffInHoursString}</b> HOURS REMIANING FOR SHREESH'S BIRTHDAY</div>
-        <div className="green-font">>THERE ARE <b>{diffInMinutesString} </b>MINUTES REMIANING FOR SHREESH'S BIRTHDAY</div>
-        <div className="green-font">>THERE ARE <b>{diffInSecondsString} </b>SECONDS REMIANING FOR SHREESH'S BIRTHDAY</div>
-        <div className="green-font">>THERE ARE <b>{diffInMillisecondsString}</b> MILISECONDS REMIANING FOR SHREESH'S BIRTHDAY</div>
+        <div className="green-font">[PROTOCOL CREATED SO HIS FRIEND(S) DONT FORGET HIS BIRTHDAY]</div>
+        <div className="green-font">>THERE ARE <b>{diffInMonthsString} MONTHS</b> REMAINING FOR SHREESH'S BIRTHDAY</div>
+        <div className="green-font">>THERE ARE <b>{diffInWeeksString} WEEKS</b> REMAINING FOR SHREESH'S BIRTHDAY</div>
+        <div className="green-font">>THERE ARE <b>{diffInDaysString} DAYS</b> REMAINING FOR SHREESH'S BIRTHDAY</div>
+        <div className="green-font">>THERE ARE <b>{diffInHoursString} HOURS</b> REMAINING FOR SHREESH'S BIRTHDAY</div>
+        <div className="green-font">>THERE ARE <b>{diffInMinutesString} MINUTES</b> REMAINING FOR SHREESH'S BIRTHDAY</div>
+        <div className="green-font">>THERE ARE <b>{diffInSecondsString} SECONDS</b> REMAINING FOR SHREESH'S BIRTHDAY</div>
+        <div className="green-font">>THERE ARE <b>{diffInMillisecondsString} MILLISECONDS</b> REMAINING FOR SHREESH'S BIRTHDAY</div>
+        <div className="green-font">[STILL ZERO CHANCES OF GETTING ANY BITCHES]</div>
+        <div className="green-font">[JK :>]</div>
+        <div className="green-font">[WEBISTE BUILT FOR MY LOCKDOWN COMRADE]</div>
       </Typist>
     </div>
   );
